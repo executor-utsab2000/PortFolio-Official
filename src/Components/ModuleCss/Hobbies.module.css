@@ -1,0 +1,14 @@
+.imgContainer {
+
+    margin: 10px;
+    position: relative;
+    width: 80%;
+    /* background-color: yellow; */
+
+}
+
+.imgContainer>img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1.5rem;
+    width: 100%;
+}

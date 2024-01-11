@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    position: relative;
+    margin: 0;
+    margin-top: 0.6rem;
+    background-attachment: fixed;
+    /* background-image: url('../../../public/Images/Projects/audio.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 3rem;
+}
+
+.bg img {
+    position: absolute;
+    bottom: -11.5vh;
+    left: 20%;
+    width: 60%;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: gray;
+    filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px);
+}
+
+
+.heading{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #432818;
+}
+
+
+.subHeader {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.desc{
+    padding-top: 1rem ;
+    text-align: justify;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #bc6c25;
+}
+
+.desc table span {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.languagesHeader{
+    padding-top: 1rem ;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.imageLogo{
+    height: 1rem;
+    margin-right: 1rem;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+

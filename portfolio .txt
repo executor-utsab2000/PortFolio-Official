@@ -1,0 +1,60 @@
+	navbar
+	landing => add resume
+	about	
+education 
+{
+	accordian [
+		{
+			degree
+			year
+			board
+			institition
+		}
+	]
+}
+hobbies or interests cards
+
+
+{
+	projects  >> include sections by react tabs on 
+	> nonresponsive >> 3
+	> responsive >> 3
+	> games >> 3
+	> react >> 3
+	}
+
+contact
+footer
+
+
+
+
+to use react router dom to create pages to give detailed study of projects individually.
+[
+picture in laptop and phone 
+languages used 
+% of languages used
+source code
+days took
+developed by 
+
+
+
+when visiting non responsive there will be a separate navbar to toggle between other non responsive ones.
+similarly for others also 
+
+
+
+
+after reaching a particular position in page change bg 
+react tabs
+react breadcrumbs 
+
+
+
+reactboostrap
+material ui
+react router
+react router dom
+react ruter hash link
+react tostify

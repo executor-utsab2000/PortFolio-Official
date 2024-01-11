@@ -1,0 +1,32 @@
+.accordian{
+    z-index: 0  ;
+    overflow: hidden;
+}
+
+.accordian button {
+    background-color: #dee2e6;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+
+.card{
+    height: 85% ;
+    /* height: 6rem; */
+    padding: 2.2rem 0;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.cardTitle{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.cardTxt{
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}

@@ -1,0 +1,93 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;0,600;0,800;1,500;1,600;1,800&family=Titillium+Web:wght@400;600&display=swap');
+
+
+.navTabs {
+    border: none;
+}
+
+.navTabs>li>button {
+    font-size: 0.8rem;
+    /* margin: 0 1rem; */
+    border: none !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #9db4c0;
+}
+
+.navTabs>li>button:hover {
+    border-bottom: 2px solid #9db4c0 !important;
+}
+
+/* .navTabs li button:active {
+    border-bottom: 2px solid #9db4c0 !important;
+} */
+
+.image{
+    width: 80%;
+    height: 16rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.projectCard{
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* padding: 1rem; */
+    border-radius: 20px;
+    background-color: #f8f9fa;
+}
+
+.projectCard div:first-child{
+    display: grid;
+    place-items: center;
+}
+.projectCard div:last-child p:nth-child(1) {
+
+    color: #253237;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px ;
+    font-family: 'Rubik', sans-serif;
+}
+.projectCard div:last-child p:nth-child(2) {
+    color: #a6a2a2;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px ;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.projectCard div:last-child>div div:first-child span:first-child  {
+    color: #253237;
+    font-size: 0.8rem;
+    font-weight: 700;
+    } 
+
+
+
+    .projectCard div:last-child>div div:first-child span:last-child img  {
+        height: 1.2rem;
+    }
+
+
+    .projectCard div:last-child>div div:last-child a button  {
+        padding: 0.5rem 1.3rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        border: none;
+        outline: none;
+        background-color: #495057;
+        color: #f7b801;
+        border-radius: 7px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        transition: all 0.3s;
+     }
+
+     .projectCard div:last-child>div div:last-child a button:hover{
+            transform: scale(0.95);
+     }

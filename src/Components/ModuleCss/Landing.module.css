@@ -1,0 +1,55 @@
+.LDcontainer{
+    /* padding: 5rem 0; */
+    position: relative;
+    /* z-index: -1 !important; */
+    margin-top: 10rem !important;
+    /* height: 70vh; */
+    /* background-color: antiquewhite; */
+}
+
+.txt1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.txt2{
+    font-size: 1rem;
+}
+.icons span i{
+    color: black;
+    font-size: 1.5rem;
+}
+
+svg{
+    position: relative;
+    top: -6rem;
+    filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 20px);
+}
+
+
+.techarea{
+    margin-top: 4rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.techarea img{
+    height: 1.3rem;
+}
+
+
+.resume button{
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: #ced4da 2px solid;
+    letter-spacing: 1px ;
+    font-size: 1rem;
+    box-shadow: rgba(67, 36, 36, 0.24) 0px 3px 8px;
+    transition: all  0.3s;
+}
+.resume button:hover{
+    transform: scale(0.95);
+}

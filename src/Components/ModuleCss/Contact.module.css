@@ -1,0 +1,18 @@
+.content i{
+    font-size: 3.5rem;
+    color:#3a86ff ;
+}
+
+.content p:nth-child(1){
+    color:#3a86ff ;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+.content p:nth-child(2){
+    color:#6c757d ;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    font-size: 0.8rem;
+}

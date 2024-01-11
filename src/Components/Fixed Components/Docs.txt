@@ -1,0 +1,3 @@
+<li><NavHashLink class="dropdown-item px-3" to="/#socials">Socials</NavHashLink></li> 
+used nv NavHashLink to navigate from one page to another section of otehr page
+

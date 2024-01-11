@@ -1,0 +1,12 @@
+.content{
+    background-color: #343a40;
+    font-weight: 700;
+    /* line-height: 10px; */
+    letter-spacing: 1px;
+}
+.content p:first-child{
+    color: #ffc300;
+}
+.content p:last-child{
+    color: #ffd60a;
+}   
